@@ -201,18 +201,6 @@ header h1 {
     display: none;
 }
 
-#typescript {
-    max-width: 16px;
-    max-height: 16px;
-}
-
-#nextjs {
-    max-width: 16px;
-    max-height: 16px;
-    border-radius: 50%;
-    border: 1px solid var(--main-hover);
-}
-
 .slide-container .slide.active {
     display: flex;
 }
@@ -277,13 +265,26 @@ header h1 {
 
 .slide .slide-icons {
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
     padding-top: 10px;
 }
 
 .slide .slide-icons .fab,
 .slide .slide-icons .fas {
     color: var(--main-hover);
+}
+
+.slide-icons #typescript {
+    max-width: 16px;
+    max-height: 16px;
+}
+
+.slide-icons #nextjs {
+    max-width: 16px;
+    max-height: 16px;
+    border-radius: 50%;
+    border: 1px solid var(--main-hover);
+    background-color: var(--grey2);
 }
 
 .slide .description .slide-link a:hover {
