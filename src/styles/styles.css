@@ -192,6 +192,7 @@ header h1 {
 .slide {
     min-height: 50vh;
     display: flex;
+    gap: 1rem;
     flex-wrap: wrap;
     align-items: center;
     padding: 20px 9%;
@@ -227,6 +228,15 @@ header h1 {
         opacity: 0;
         transform: translateY(-50px);
     }
+}
+
+.slide .image {
+    border: 1px solid var(--main);
+    border-radius: 5px;
+}
+
+.slide .image:hover {
+    border: 2px solid var(--main);
 }
 
 .slide .description h3 {
