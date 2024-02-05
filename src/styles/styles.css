@@ -130,15 +130,15 @@ header h1 {
 }
 
 #img-home {
-    max-height: 408px;
+    max-height: 422px;
 }
 
 #img-contact {
-    max-height: 340px;
+    max-height: 348px;
 }
 
 #img-about {
-    max-height: 352px;
+    max-height: 332px;
 }
 
 .content-title {
@@ -378,7 +378,7 @@ header h1 {
     }
 
     p {
-        font-size: 24px;
+        font-size: 20px;
     }
 
 
