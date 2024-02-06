@@ -230,13 +230,9 @@ header h1 {
     }
 }
 
-.slide .image {
-    border: 1px solid var(--main);
-    border-radius: 5px;
-}
-
 .slide .image:hover {
-    border: 2px solid var(--main);
+    box-shadow: inset 0 0 40px 0 var(--grey1);
+    border-radius: 8px;
 }
 
 .slide .description h3 {
