@@ -8,7 +8,7 @@
     --grey1: #f0f8ff;
     --grey2: #c7d2fe;
     --grey2-hover: #dae0fa;
-    --grey3: #020617ca;
+    --grey3: #02061779;
     --black: #070707;
 
 }
@@ -24,7 +24,7 @@
 }
 
 body {
-    background-color: var(--main);
+    background-color: var(--grey2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +48,7 @@ strong {
     width: 100%;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px 0 var(--grey3);
 }
 
 header span {
