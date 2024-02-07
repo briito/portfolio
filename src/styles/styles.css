@@ -8,7 +8,7 @@
     --grey1: #f0f8ff;
     --grey2: #c7d2fe;
     --grey2-hover: #dae0fa;
-    --grey3: #02061779;
+    --grey3: #020617ce;
     --black: #070707;
 
 }
@@ -24,7 +24,7 @@
 }
 
 body {
-    background-color: var(--grey2);
+    background-color: var(--main);
     display: flex;
     align-items: center;
     justify-content: center;
