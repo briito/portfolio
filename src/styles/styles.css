@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0400;700&display=swap');
 
 :root {
-
     --main: #9294ff;
     --main-hover: #404bb1e4;
     --secondary: #364FC7;
@@ -10,7 +9,6 @@
     --grey2-hover: #dae0fa;
     --grey3: #020617ce;
     --black: #070707;
-
 }
 
 * {
@@ -46,6 +44,7 @@ strong {
     background-color: var(--grey1);
     max-width: 1000px;
     width: 100%;
+    height: 100vh;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 20px 0 var(--grey3);
@@ -55,8 +54,6 @@ header span {
     color: var(--main);
     font-size: 20px;
     font-weight: 500;
-
-
 }
 
 header h1 {
@@ -112,37 +109,27 @@ header h1 {
 
 .main-content {
     width: 100%;
-    height: auto;
 }
 
 .content {
     display: none;
+    height: 470px;
 }
 
 .content.show {
     display: flex;
     flex-direction: column;
-    gap: 14px;
     background-color: var(--grey2);
     border-radius: 0px 0px 8px 8px;
     padding: 16px;
 }
 
 .content-img {
-    width: 100%;
-    height: auto;
+    height: 300px;
 }
 
-#img-home {
-    max-height: 422px;
-}
-
-#img-contact {
-    max-height: 348px;
-}
-
-#img-about {
-    max-height: 332px;
+.project-img {
+    height: 200px;
 }
 
 .content-title {
@@ -152,7 +139,7 @@ header h1 {
 .social-buttons {
     display: flex;
     gap: 2rem;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .social-buttons abbr {
@@ -194,12 +181,9 @@ header h1 {
 }
 
 .slide {
-    min-height: 50vh;
     display: flex;
-    gap: 1rem;
     flex-wrap: wrap;
     align-items: center;
-    padding: 20px 9%;
 }
 
 .slide-container .slide {
@@ -223,6 +207,7 @@ header h1 {
 }
 
 .description {
+    padding-left: 10px;
     flex: 1 1 300px;
     animation: slideContent .4s linear .6s backwards;
 }
@@ -234,6 +219,10 @@ header h1 {
     }
 }
 
+.slide .image {
+    height: 14rem;
+}
+
 .slide .image:hover {
     box-shadow: inset 0 0 40px 0 var(--grey1);
     border-radius: 8px;
@@ -241,7 +230,7 @@ header h1 {
 
 .slide .description h3 {
     color: var(--grey3);
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     font-weight: 400;
     font-size: 20px;
 }
@@ -252,7 +241,7 @@ header h1 {
 }
 
 .slide .description>p {
-    padding: 15px 0 30px 0;
+    padding: 15px 0 15px 0;
     font-size: 18px;
     font-weight: 400;
 }
@@ -327,9 +316,9 @@ header h1 {
     color: var(--grey1);
     background-color: var(--grey3);
     height: 40px;
-    width: 30px;
+    width: 20px;
     line-height: 40px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     cursor: pointer;
     font-weight: bold;

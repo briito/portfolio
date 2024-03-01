@@ -13,6 +13,24 @@
         justify-content: space-between;
     }
 
+    #container {
+        height: auto;
+    }
+
+    .content {
+        height: auto;
+        min-height: 550px;
+        gap: 2rem;
+    }
+
+    .main-content {
+        height: 600px;
+    }
+    
+    .slide .description .slide-link {
+        margin-top: 10px;
+    }
+
     .slide .description h3 {
         font-size: 24px;
     }
@@ -28,7 +46,10 @@
     .carousel-navigation #prev,
     .carousel-navigation #next {
         position: relative;
-
+        top: 150px;
+        height: 40px;
+        width: 30px;
+        line-height: 40px;
     }
 
     .carousel-navigation #prev {
@@ -42,6 +63,5 @@
     p {
         font-size: 20px;
     }
-
 
 }
