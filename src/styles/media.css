@@ -13,30 +13,43 @@
         justify-content: space-between;
     }
 
+    p {
+        font-size: 1.3rem;
+    }
+
     #container {
-        height: auto;
+        min-height: 50vh;
     }
 
     .content {
         height: auto;
-        min-height: 550px;
+        min-height: 34.3rem;
         gap: 2rem;
     }
 
+    .content-img {
+        height: 21.8rem;
+    }
+
     .main-content {
-        height: 600px;
+        height: 37.5rem;
+    }
+
+    .carousel-navigation #prev,
+    .carousel-navigation #next {
+        top: 32rem;
     }
     
     .slide .description .slide-link {
-        margin-top: 10px;
+        margin-top: 0.6rem;
     }
 
     .slide .description h3 {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .slide .description h4 {
-        font-size: 20px;
+        font-size: 1.2rem;
     }
 
 }
@@ -46,14 +59,11 @@
     .carousel-navigation #prev,
     .carousel-navigation #next {
         position: relative;
-        top: 150px;
-        height: 40px;
-        width: 30px;
-        line-height: 40px;
+        top: 9.3rem;
     }
 
     .carousel-navigation #prev {
-        left: 865px;
+        left: 54rem;
     }
 
     .carousel-navigation #next {
@@ -61,7 +71,7 @@
     }
 
     p {
-        font-size: 20px;
+        font-size: 1.2rem;
     }
 
 }
