@@ -129,7 +129,7 @@ header h1 {
 }
 
 .project-img {
-    height: 200px;
+    height: 190px;
 }
 
 .content-title {
@@ -249,6 +249,7 @@ header h1 {
 .slide .description .slide-link {
     display: flex;
     justify-content: space-between;
+    margin-top: 5px;
 }
 
 .slide .description .slide-link a {
@@ -311,13 +312,13 @@ header h1 {
 .carousel-navigation #prev,
 .carousel-navigation #next {
     position: absolute;
-    top: 80%;
+    top: 64%;
     transform: translateY(-50%);
     color: var(--grey1);
     background-color: var(--grey3);
-    height: 40px;
-    width: 20px;
-    line-height: 40px;
+    height: 30px;
+    width: 25px;
+    line-height: 20px;
     font-size: 20px;
     text-align: center;
     cursor: pointer;
