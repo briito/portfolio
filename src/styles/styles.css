@@ -64,7 +64,7 @@ header h1 {
     width: 18ch;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 1s steps(18), cursor 0.5s infinite step-end alternate;
+    animation: typing 2s steps(18), cursor 0.5s infinite step-end alternate;
 }
 
 @keyframes typing {
@@ -224,7 +224,7 @@ header h1 {
 }
 
 .slide .image:hover {
-    box-shadow: inset 0 0 40px 0 var(--grey1);
+    box-shadow: inset 0 0 5px 0 var(--grey1);
     border-radius: 8px;
 }
 
